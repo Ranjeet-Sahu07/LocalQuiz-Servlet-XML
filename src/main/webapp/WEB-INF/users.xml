@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <!-- Sample user data for the application -->
+    
+    <!-- Admin User -->
+    <user id="U001">
+        <username>9262821600</username>
+        <password>Sujeet@2002</password>
+        <email>admin@localquiz.com</email>
+        <role>admin</role>
+    </user>
+    
+    <!-- Regular Users -->
+    <user id="U002">
+        <username>johndoe</username>
+        <password>password123</password>
+        <email>john.doe@example.com</email>
+        <role>user</role>
+        <quizHistory>
+            <attempt quizId="Q001" score="85" date="2025-11-01" />
+        </quizHistory>
+    </user>
+    
+    <user id="U003">
+        <username>janedoe</username>
+        <password>password456</password>
+        <email>jane.doe@example.com</email>
+        <role>user</role>
+        <quizHistory>
+            <attempt quizId="Q002" score="90" date="2025-11-02" />
+        </quizHistory>
+    </user>
+    
+    <!-- Add more users as needed -->
+</users>
