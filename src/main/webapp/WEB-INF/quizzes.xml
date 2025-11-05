@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quizzes>
+    <!-- Sample quiz data for the application -->
+    
+    <quiz id="Q001">
+        <subject>Java Programming</subject>
+        <topic>Core Java Basics</topic>
+        <duration>15</duration> <!-- in minutes -->
+        <questions>
+            <question id="Q001_1">
+                <text>What is the size of int in Java?</text>
+                <options>
+                    <option>2 bytes</option>
+                    <option>4 bytes</option>
+                    <option>8 bytes</option>
+                    <option>Depends on JVM</option>
+                </options>
+                <correctAnswer>4 bytes</correctAnswer>
+            </question>
+            <question id="Q001_2">
+                <text>Which keyword is used for inheritance in Java?</text>
+                <options>
+                    <option>implements</option>
+                    <option>extends</option>
+                    <option>inherits</option>
+                    <option>super</option>
+                </options>
+                <correctAnswer>extends</correctAnswer>
+            </question>
+        </questions>
+    </quiz>
+
+    <quiz id="Q002">
+        <subject>Web Development</subject>
+        <topic>HTML & CSS</topic>
+        <duration>10</duration>
+        <questions>
+            <question id="Q002_1">
+                <text>What does HTML stand for?</text>
+                <options>
+                    <option>Hyper Text Markup Language</option>
+                    <option>High Tech Modern Language</option>
+                    <option>Home Tool Markup Language</option>
+                    <option>Hyperlinks and Text Markup Language</option>
+                </options>
+                <correctAnswer>Hyper Text Markup Language</correctAnswer>
+            </question>
+        </questions>
+    </quiz>
+    
+    <!-- Add more quizzes as needed -->
+</quizzes>
